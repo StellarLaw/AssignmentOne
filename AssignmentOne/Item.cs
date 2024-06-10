@@ -29,6 +29,8 @@ namespace AssignmentOne
         public override string ToString()
         {
             return $"ID: {Id}, Name: {Name}, Description: {Description}, Price: {Price:C}, Quantity: {Quantity}";
+
+            
         }
     }
 }
